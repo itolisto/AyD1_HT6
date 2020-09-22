@@ -14,10 +14,7 @@ import java.util.List;
 
 public class AsignarHorario {
 
-    public AsignarHorario() {
-    }
-    
-    
+    public AsignarHorario() { }
 
     public Horario generarHorario(Carrera carrera, RegistroAcademico carnet) throws Exception {
         Horario horario = new Horario();
